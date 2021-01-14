@@ -21,6 +21,7 @@ namespace SuperMercado
         //METODOS
         public void Vender() 
         {
+            Console.WriteLine("Salvar o erro");
             Console.WriteLine("Provocar o erro :(");
         }
     }
