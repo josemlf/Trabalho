@@ -6,16 +6,31 @@ namespace SuperMercado
 {
     class LoginGes
     {
-        private string nome;
-        private int id;
-        private string pass;
+        public string nome;
+        public int id;
+        public string pass;
 
-        public LoginGes(string nome)
+        public LoginGes(string nome, int id, string pass)
         {
             this.nome = nome;
+            this.id = id;
+            this.pass = pass;
         }
 
-        public 
+        public string Nome { get => nome; set => nome = value; }
+        public int Id { get => id; set => id = value; }
+        public string Pass { get => pass; set => pass = value; }
+
+        public void FazerLogin()
+        {
+            string nome = "testuser";
+
+            if (nome == nome)
+            {
+                    
+            }
+        }
+
 
     }
 }
