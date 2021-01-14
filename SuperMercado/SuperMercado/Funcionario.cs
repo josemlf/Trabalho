@@ -19,6 +19,8 @@ namespace SuperMercado
         public string Nome { get => nome; set => nome = value; }
 
         //METODOS
-        //Por favor, Diogo faz tu xD
+        public void Vender() 
+        {
+        }
     }
 }
